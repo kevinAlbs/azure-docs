@@ -133,7 +133,7 @@ To run this sample, you will need:
 2. Run app.py from shell or command line:
 
     ```Shell
-    python app.py
+    flask run -h localhost
     ```
    > [!IMPORTANT]
    > This quickstart application uses a client secret to identify itself as confidential client. Because the client secret is added as a plain-text to your project files, for security reasons, it is recommended that you use a certificate instead of a client secret before considering the application as production application. For more information on how to use a certificate, see [these instructions](https://docs.microsoft.com/azure/active-directory/develop/active-directory-certificate-credentials).
